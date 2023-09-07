@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="numButtons" parent="Widget.Material3.Button">
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">76dp</item>
+        <item name="android:backgroundTint">@color/seed</item>
+        <item name="android:fontFamily">@font/amaranth_bold</item>
+        <item name="android:textColor">@color/md_theme_light_secondary</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+</resources>
