@@ -72,6 +72,14 @@ public class MainActivity extends AppCompatActivity {
         result.setText(Double.toString(res));
     }
 
+    // Clear all text
+    public void clear(View v){
+        num1.setText(null);
+        num2.setText(null);
+        operator.setText(null);
+        result.setText(null);
+    }
+
     // Enter operator into text box
     public void enterX(View v){
         Button opVal = findViewById(R.id.buttonMultiply);
@@ -107,7 +115,8 @@ public class MainActivity extends AppCompatActivity {
         Button numVal = findViewById(R.id.button0);
         String num = numVal.getText().toString();
 
-        if(num1.equals("")){
+
+        if(num1.getText().toString().equals("")){
             num1.setText(num);
         }
         else{
@@ -118,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
         Button numVal = findViewById(R.id.button1);
         String num = numVal.getText().toString();
 
-        if(num1.equals("")){
+        if(num1.getText().toString().equals("")){
             num1.setText(num);
         }
         else{
@@ -129,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
         Button numVal = findViewById(R.id.button2);
         String num = numVal.getText().toString();
 
-        if(num1.equals("")){
+        if(num1.getText().toString().equals("")){
             num1.setText(num);
         }
         else{
@@ -140,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
         Button numVal = findViewById(R.id.button3);
         String num = numVal.getText().toString();
 
-        if(num1.equals("")){
+        if(num1.getText().toString().equals("")){
             num1.setText(num);
         }
         else{
@@ -151,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
         Button numVal = findViewById(R.id.button4);
         String num = numVal.getText().toString();
 
-        if(num1.equals("")){
+        if(num1.getText().toString().equals("")){
             num1.setText(num);
         }
         else{
@@ -162,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
         Button numVal = findViewById(R.id.button5);
         String num = numVal.getText().toString();
 
-        if(num1.equals("")){
+        if(num1.getText().toString().equals("")){
             num1.setText(num);
         }
         else{
@@ -173,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
         Button numVal = findViewById(R.id.button6);
         String num = numVal.getText().toString();
 
-        if(num1.equals("")){
+        if(num1.getText().toString().equals("")){
             num1.setText(num);
         }
         else{
@@ -184,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
         Button numVal = findViewById(R.id.button7);
         String num = numVal.getText().toString();
 
-        if(num1.equals("")){
+        if(num1.getText().toString().equals("")){
             num1.setText(num);
         }
         else{
@@ -195,7 +204,7 @@ public class MainActivity extends AppCompatActivity {
         Button numVal = findViewById(R.id.button8);
         String num = numVal.getText().toString();
 
-        if(num1.equals("")){
+        if(num1.getText().toString().equals("")){
             num1.setText(num);
         }
         else{
@@ -206,7 +215,7 @@ public class MainActivity extends AppCompatActivity {
         Button numVal = findViewById(R.id.button9);
         String num = numVal.getText().toString();
 
-        if(num1.equals("")){
+        if(num1.getText().toString().equals("")){
             num1.setText(num);
         }
         else{

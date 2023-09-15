@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="padding">10dp</dimen>
+    <dimen name="padding_num_text">10dp</dimen>
+    <dimen name="margin_text">8dp</dimen>
+
 </resources>
